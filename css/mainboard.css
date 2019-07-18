@@ -1,0 +1,144 @@
+
+
+body {
+
+}
+
+
+#nino-cvWrap {
+	max-width: 960px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.header {
+
+}
+
+.fw {
+    --webkit-display:flex;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.nino-leftside {
+    flex: 30%;
+    
+	background-color: red;
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nino-leftSide header, .nino-aboutMe, .nino-contactInfo, .nino-mySkill {
+	flex:100%;
+	
+}
+
+.nino-rightside {
+    flex: 70%;
+    
+    background-color: green;
+}
+
+
+/* =============== NAVIGATION =============== */
+#mainMenu {
+	margin: 15px 0;
+}
+#mainMenu ul {
+	text-align: right;
+}
+#mainMenu ul li {
+	display: inline-block;
+}
+#mainMenu ul li a {
+	display: inline-block;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+#mainMenu ul li .nino-icon {
+	font-size: 18px;
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+}
+
+
+/* =================== Media Query ================ */
+
+/*   col-md-12 col-sm-6 col-xs-12  
+@media (max-width: 576px) {
+	
+} */
+/*   col-md-12 col-sm-6 col-xs-12   
+@media (max-width: 768px) {
+	
+}*/
+/*   col-md-12 col-sm-6 col-xs-12   
+@media (max-width: 576px) {
+	
+}*/
+/*   col-md-12 col-sm-6 col-xs-12  
+@media (min-width: 576px) {
+	
+} */
+
+/* ============================================================ RESPONSIVE ============================================================ */
+@media (max-width: 1200px) {
+	
+}
+@media (max-width: 991px) {
+
+	/* =============== LAYOUT =============== */
+	.nino-leftSide,
+	.nino-rightSide {
+		flex: 100%;
+		
+	}
+	/* =============== LEFT SIDE =============== */
+	header,
+	.nino-leftSide section {
+		margin: 0;
+		border: 1px solid rgba(255, 255, 255, 0.25);
+		border-width: 0 1px 1px 0;
+	}
+	.nino-leftSide section {
+		padding: 35px 30px;
+	}
+
+	.nino-leftSide header, .nino-aboutMe, .nino-contactInfo, .nino-mySkill {
+		flex:45%;
+		
+	}
+
+
+}
+@media (max-width: 767px) {
+	
+	/* =============== LAYOUT =============== */
+	main {
+	    padding: 30px 20px;
+	}
+	/* =============== LEFT SIDE =============== */
+	header,
+	.nino-leftSide section {
+		margin-bottom: 35px;
+		border: none;
+	}
+	.nino-leftSide section {
+	    padding: 0 30px;
+	}
+	.nino-leftSide .nino-mySkill {
+		border: none;
+	}
+}
+@media (max-width: 640px) {
+	
+}
+@media (max-width: 480px) {
+	
+}
